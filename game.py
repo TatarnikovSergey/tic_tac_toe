@@ -5,6 +5,7 @@ from gameparts.exceptions import FieldIndexError, CellOccupiedError
 
 
 def main():
+    global row, column
     game = Board()
     current_player = 'X'
     running = True
