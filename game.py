@@ -82,7 +82,7 @@ def draw_figures(board):
                     ),
                     X_WIDTH
                 )
-            elif board[row][col] == 'O':
+            elif board[row][col] == '0':
                 pygame.draw.circle(
                     screen,
                     O_COLOR,
